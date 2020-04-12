@@ -12,6 +12,7 @@ local hal = {}
 dave.color = {220/255, 220/255, 220/255} 
 hal.color = {52/255, 52/255, 133/255} 
 
+
 function love.load()
     love.window.setTitle("DicE")
     love.window.setMode(cw, ch, {resizable=false, vsync=false})
@@ -22,10 +23,10 @@ function love.load()
 
 end
  
+
 function love.draw()
     love.graphics.draw(dave.img, cw/2, ch/2, 0,0.04, 0.04, 0, 0)
 end
-
 
 
 function love.mousereleased()
