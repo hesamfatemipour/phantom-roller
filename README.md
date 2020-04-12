@@ -8,8 +8,19 @@ An attempt to hack with love game engine and lua.
 
 Dependencies: 
 
-install lua preferably 5.3 (in debian you can install using apt by running "sudo apt install lua5.3" in terminal).
-install love2d engine. here you can find ppa for latest version: https://launchpad.net/~bartbes/+archive/ubuntu/love-stable
+install lua preferably 5.3 in debian you can install using apt by running:
+```
+sudo apt install lua5.3
+```
+
+install love2d engine:
+(note: you need to add the ppa in ubuntu for latest version)
+
+```
+sudo add-apt-repository ppa:bartbes/love-stable
+sudo apt-get update
+sudo apt install love
+```
 
 after installing the dependencies: 
 
