@@ -4,7 +4,7 @@ WIP: Rolls dice for no reason
 
 An attempt to hack with love game engine and lua.
 
-#How to run:
+# How to run:
 
 Dependencies: 
 
