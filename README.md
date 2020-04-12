@@ -2,7 +2,7 @@
 WIP: Rolls dice for no reason
 
 
-An attempt to hack with love game engine and lua.
+An attempt to hack with love2d game engine and lua.
 
 # How to run:
 
